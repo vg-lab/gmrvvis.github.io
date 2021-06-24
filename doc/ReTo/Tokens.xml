@@ -185,7 +185,7 @@
       <Scope>reto::Camera</Scope>
     </TokenIdentifier>
     <Path>classreto_1_1_camera.html</Path>
-    <Anchor>a9ccb702eb107da3cd70913e936a9d959</Anchor>
+    <Anchor>aa305a146709d483195b6177e011d1d7a</Anchor>
     <Abstract>Method to start or change the camera zeqSession. </Abstract>
     <DeclaredIn>Camera.h</DeclaredIn>
   </Token>
@@ -1056,7 +1056,19 @@
       <Scope>reto::OrbitalCameraController</Scope>
     </TokenIdentifier>
     <Path>classreto_1_1_orbital_camera_controller.html</Path>
-    <Abstract>Class to control orbtial camera. </Abstract>
+    <Abstract>Class to control orbital camera This class manage the movement, rotation, zoom and animation of orbit...</Abstract>
+    <DeclaredIn>OrbitalCameraController.h</DeclaredIn>
+  </Token>
+  <Token>
+    <TokenIdentifier>
+      <Name>OrbitalCameraController</Name>
+      <APILanguage>cpp</APILanguage>
+      <Type>instm</Type>
+      <Scope>reto::OrbitalCameraController</Scope>
+    </TokenIdentifier>
+    <Path>classreto_1_1_orbital_camera_controller.html</Path>
+    <Anchor>a9e2d406a7989a53c3adb9c7bb299e74f</Anchor>
+    <Abstract>OrbitalCameraController class constructor. </Abstract>
     <DeclaredIn>OrbitalCameraController.h</DeclaredIn>
   </Token>
   <Token>

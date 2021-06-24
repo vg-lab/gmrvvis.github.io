@@ -114,7 +114,7 @@ $(document).ready(function(){initNavTree('classreto_1_1_orbital_camera_controlle
 </div><!--header-->
 <div class="contents">
 
-<p>Class to control orbtial camera.  
+<p>Class to control orbital camera This class manage the movement, rotation, zoom and animation of orbital camera.  
  <a href="classreto_1_1_orbital_camera_controller.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="_orbital_camera_controller_8h_source.html">OrbitalCameraController.h</a>&gt;</code></p>
@@ -144,8 +144,8 @@ $(document).ready(function(){initNavTree('classreto_1_1_orbital_camera_controlle
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a9e2d406a7989a53c3adb9c7bb299e74f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9e2d406a7989a53c3adb9c7bb299e74f"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>OrbitalCameraController</b> (<a class="el" href="classreto_1_1_camera.html">Camera</a> *camera_=nullptr, const std::string zeqSession=std::string())</td></tr>
+<tr class="memitem:a9e2d406a7989a53c3adb9c7bb299e74f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classreto_1_1_orbital_camera_controller.html#a9e2d406a7989a53c3adb9c7bb299e74f">OrbitalCameraController</a> (<a class="el" href="classreto_1_1_camera.html">Camera</a> *camera_=nullptr, const std::string zeqSession=std::string())</td></tr>
+<tr class="memdesc:a9e2d406a7989a53c3adb9c7bb299e74f"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classreto_1_1_orbital_camera_controller.html" title="Class to control orbital camera This class manage the movement, rotation, zoom and animation of orbit...">OrbitalCameraController</a> class constructor.  <a href="#a9e2d406a7989a53c3adb9c7bb299e74f">More...</a><br /></td></tr>
 <tr class="separator:a9e2d406a7989a53c3adb9c7bb299e74f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27dfd4ea0e45dcbbe6999745a690460b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a27dfd4ea0e45dcbbe6999745a690460b"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>localTranslate</b> (const Eigen::Vector3f &amp;translation_)</td></tr>
@@ -166,9 +166,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>localTranslate</b> (c
 <tr class="memitem:ae17499373aa7b8bb3af8127b128aa7b7 inherit pub_methods_classreto_1_1_abstract_camera_controller"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae17499373aa7b8bb3af8127b128aa7b7"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>update</b> (void)</td></tr>
 <tr class="separator:ae17499373aa7b8bb3af8127b128aa7b7 inherit pub_methods_classreto_1_1_abstract_camera_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcad5ccbb5b8af78399bfe0e05a3500d inherit pub_methods_classreto_1_1_abstract_camera_controller"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afcad5ccbb5b8af78399bfe0e05a3500d"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>anim</b> (float deltaTime_=1.0f/60)</td></tr>
-<tr class="separator:afcad5ccbb5b8af78399bfe0e05a3500d inherit pub_methods_classreto_1_1_abstract_camera_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1cedf6a2644f7725540f06de6ced37a inherit pub_methods_classreto_1_1_abstract_camera_controller"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac1cedf6a2644f7725540f06de6ced37a"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>anim</b> (const float deltaTime_=1.0f/60)</td></tr>
+<tr class="separator:ac1cedf6a2644f7725540f06de6ced37a inherit pub_methods_classreto_1_1_abstract_camera_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc69bf565aeaa76d37173c2a63136a52 inherit pub_methods_classreto_1_1_abstract_camera_controller"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc69bf565aeaa76d37173c2a63136a52"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>startAnim</b> (<a class="el" href="classreto_1_1_camera_animation.html">CameraAnimation</a> *cameraAnimation_, bool loop_=false)</td></tr>
 <tr class="separator:abc69bf565aeaa76d37173c2a63136a52 inherit pub_methods_classreto_1_1_abstract_camera_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,11 +248,47 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_loopAnim</b></td></t
 <tr class="separator:a08b1d8dfb1b94d95e3f85cbb542ae8da inherit pro_attribs_classreto_1_1_abstract_camera_controller"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>Class to control orbtial camera. </p>
-<p>This class manage the movement, rotation, zoom and animation of orbital camera </p>
+<div class="textblock"><p>Class to control orbital camera This class manage the movement, rotation, zoom and animation of orbital camera. </p>
 
 <p>Definition at line <a class="el" href="_orbital_camera_controller_8h_source.html#l00039">39</a> of file <a class="el" href="_orbital_camera_controller_8h_source.html">OrbitalCameraController.h</a>.</p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a9e2d406a7989a53c3adb9c7bb299e74f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">reto::OrbitalCameraController::OrbitalCameraController </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classreto_1_1_camera.html">Camera</a> *&#160;</td>
+          <td class="paramname"><em>camera_</em> = <code>nullptr</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string&#160;</td>
+          <td class="paramname"><em>zeqSession</em> = <code>std::string()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p><a class="el" href="classreto_1_1_orbital_camera_controller.html" title="Class to control orbital camera This class manage the movement, rotation, zoom and animation of orbit...">OrbitalCameraController</a> class constructor. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramdir">[in]</td><td class="paramname">camera_</td><td><a class="el" href="classreto_1_1_camera.html" title="Class to manage camera. ">Camera</a> object. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">session</td><td>ZeroEQ session name. </td></tr>
+    <tr><td class="paramdir">[in]</td><td class="paramname">subscriber</td><td>Only if ZeroEQ enabled. ZeroEQ subscriber for null session. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a38205c28eaa6326a2892cd6b72ae2b23"></a>
 <div class="memitem">
 <div class="memproto">
@@ -325,7 +361,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_loopAnim</b></td></t
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>reto</b></li><li class="navelem"><a class="el" href="classreto_1_1_orbital_camera_controller.html">OrbitalCameraController</a></li>
-    <li class="footer">Generated on Fri Dec 11 2020 19:22:22 for ReTo by
+    <li class="footer">Generated on Thu Jun 24 2021 11:48:22 for ReTo by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>
   </ul>

@@ -17,7 +17,7 @@ var classreto_1_1_camera =
     [ "nearPlane", "classreto_1_1_camera.html#a0f2f6c0aa06e491a574535fb9ac0cff4", null ],
     [ "projectionMatrix", "classreto_1_1_camera.html#a8c65eb263a6c430f317fc3be6b12222e", null ],
     [ "projectionViewMatrix", "classreto_1_1_camera.html#a6b940cdb827ea5b1aa2c85da1c820f9c", null ],
-    [ "setZeqSession", "classreto_1_1_camera.html#a9ccb702eb107da3cd70913e936a9d959", null ],
+    [ "setZeqSession", "classreto_1_1_camera.html#aa305a146709d483195b6177e011d1d7a", null ],
     [ "viewMatrix", "classreto_1_1_camera.html#af04acafea51d165cd9ba48eefdc5687f", null ],
     [ "AbstractCameraController", "classreto_1_1_camera.html#a226deefcc81c61788d5d2c3853cfc033", null ],
     [ "_enableZeqConnChanges", "classreto_1_1_camera.html#a8465c8de8dbda78ee6ca66f4d37f68e3", null ],

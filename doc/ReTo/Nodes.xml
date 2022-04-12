@@ -332,12 +332,12 @@
                <Node>
                 <Name>Camera</Name>
                 <Path>classreto_1_1_camera.html</Path>
-                <Anchor>a5c885d5f53bc01f67f137c6bd7867ace</Anchor>
+                <Anchor>ab9051371322ea60f222187c376ed98d3</Anchor>
                </Node>
                <Node>
                 <Name>Camera</Name>
                 <Path>classreto_1_1_camera.html</Path>
-                <Anchor>aef323db85f8f711df4717d896f637ef5</Anchor>
+                <Anchor>ac5573fe97d2d351b61604ac12df3be32</Anchor>
                </Node>
                <Node>
                 <Name>~Camera</Name>
@@ -435,11 +435,6 @@
                 <Anchor>a8465c8de8dbda78ee6ca66f4d37f68e3</Anchor>
                </Node>
                <Node>
-                <Name>_f</Name>
-                <Path>classreto_1_1_camera.html</Path>
-                <Anchor>aeaf8135126ff063fd90a8710300c70d5</Anchor>
-               </Node>
-               <Node>
                 <Name>_farPlane</Name>
                 <Path>classreto_1_1_camera.html</Path>
                 <Anchor>aa27ef306620aebcb9250f113736af0d3</Anchor>
@@ -448,6 +443,11 @@
                 <Name>_fov</Name>
                 <Path>classreto_1_1_camera.html</Path>
                 <Anchor>a4e954b9f6ba2041e46077619b79fcc8c</Anchor>
+               </Node>
+               <Node>
+                <Name>_fovTan</Name>
+                <Path>classreto_1_1_camera.html</Path>
+                <Anchor>afade9ef30cf0e0fbd7b909c54c7269e4</Anchor>
                </Node>
                <Node>
                 <Name>_isProjMatClean</Name>

@@ -1,6 +1,6 @@
 set(RETO_MATURITY "EP")
 set(RETO_DESCRIPTION "")
-set(RETO_GIT_ROOT_URL "https://gitlab-ci-token:U56qsArDxD_yPqDx1UB5@gitlab.vg-lab.es/nsviz/ReTo.git")
+set(RETO_GIT_ROOT_URL "https://gitlab-ci-token:KzU1jZSrNhRs9TmjkjxA@gitlab.vg-lab.es/nsviz/ReTo.git")
 set(RETO_PACKAGE_URL "")
 set(RETO_CI_URL "")
 set(RETO_CI_PNG "")

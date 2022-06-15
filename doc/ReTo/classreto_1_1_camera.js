@@ -30,5 +30,5 @@ var classreto_1_1_camera =
     [ "_projectionViewMatrix", "classreto_1_1_camera.html#ae2adb6a4210287d45d9256482be0dc7e", null ],
     [ "_ratio", "classreto_1_1_camera.html#a7eef02742642b3ef7f175fa0e51c1e31", null ],
     [ "_viewMatrix", "classreto_1_1_camera.html#a76e74f8b3d8619bfab16af6342004ecb", null ],
-    [ "_zeqConnection", "classreto_1_1_camera.html#af4871c24ec22d285f75a970e585f3b9d", null ]
+    [ "NO_ZEROEQ", "classreto_1_1_camera.html#a2e46cd8434a5be05bf6dee24eaa0030c", null ]
 ];

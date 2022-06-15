@@ -13,6 +13,5 @@ var searchData=
   ['_5fprojectionmatrix',['_projectionMatrix',['../classreto_1_1_camera.html#ae30fbc701aed0bc995648aa1c0690dea',1,'reto::Camera']]],
   ['_5fprojectionviewmatrix',['_projectionViewMatrix',['../classreto_1_1_camera.html#ae2adb6a4210287d45d9256482be0dc7e',1,'reto::Camera']]],
   ['_5fratio',['_ratio',['../classreto_1_1_camera.html#a7eef02742642b3ef7f175fa0e51c1e31',1,'reto::Camera']]],
-  ['_5fviewmatrix',['_viewMatrix',['../classreto_1_1_camera.html#a76e74f8b3d8619bfab16af6342004ecb',1,'reto::Camera']]],
-  ['_5fzeqconnection',['_zeqConnection',['../classreto_1_1_camera.html#af4871c24ec22d285f75a970e585f3b9d',1,'reto::Camera']]]
+  ['_5fviewmatrix',['_viewMatrix',['../classreto_1_1_camera.html#a76e74f8b3d8619bfab16af6342004ecb',1,'reto::Camera']]]
 ];

@@ -150,7 +150,7 @@
     </TokenIdentifier>
     <Path>classreto_1_1_camera.html</Path>
     <Anchor>ab9051371322ea60f222187c376ed98d3</Anchor>
-    <Abstract>Camera constructor. </Abstract>
+    <Abstract>use as session name to disable ZEROEQ </Abstract>
     <DeclaredIn>Camera.h</DeclaredIn>
   </Token>
   <Token>
@@ -406,17 +406,6 @@
     <Path>classreto_1_1_camera.html</Path>
     <Anchor>a8465c8de8dbda78ee6ca66f4d37f68e3</Anchor>
     <Abstract>Bool to enable zeq changes in view matrix. </Abstract>
-  </Token>
-  <Token>
-    <TokenIdentifier>
-      <Name>_zeqConnection</Name>
-      <APILanguage>cpp</APILanguage>
-      <Type>data</Type>
-      <Scope>reto::Camera</Scope>
-    </TokenIdentifier>
-    <Path>classreto_1_1_camera.html</Path>
-    <Anchor>af4871c24ec22d285f75a970e585f3b9d</Anchor>
-    <Abstract>State of the zeq connection: 1 activated, 0 deactivated. </Abstract>
   </Token>
   <Token>
     <TokenIdentifier>

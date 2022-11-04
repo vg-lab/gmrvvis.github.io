@@ -1,6 +1,6 @@
 set(NEUROLOTS_MATURITY "EP")
 set(NEUROLOTS_DESCRIPTION "NeuroLOTs")
-set(NEUROLOTS_GIT_ROOT_URL "https://gitlab-ci-token:RmEBWzJs9s-we3G57ses@gitlab.vg-lab.es/nsviz/neurolots.git")
+set(NEUROLOTS_GIT_ROOT_URL "https://gitlab-ci-token:TS98t31iPLxsPeNY7U93@gitlab.vg-lab.es/nsviz/neurolots.git")
 set(NEUROLOTS_PACKAGE_URL "")
 set(NEUROLOTS_CI_URL "")
 set(NEUROLOTS_CI_PNG "")
